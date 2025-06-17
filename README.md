@@ -5,7 +5,7 @@ This command allows server administrators with `god` permissions to manage other
 
 ## Basic Command Syntax
 ```
-/admin [action] [playerID] [permission]
+/permission [action] [playerID] [permission]
 ```
 
 ## Parameters
@@ -20,28 +20,28 @@ This command allows server administrators with `god` permissions to manage other
 ### Adding Permissions
 1. Grant basic admin access to player ID 15:
    ```
-   /admin add 15 admin
+   /permission add 15 admin
    ```
 
 2. Grant highest-level god permissions to player ID 22:
    ```
-   /admin add 22 god
+   /permission add 22 god
    ```
 
 3. Grant default (admin) permissions without specifying level:
    ```
-   /admin add 31
+   /permission add 31
    ```
 
 ### Removing Permissions
 1. Remove all permissions from player ID 15:
    ```
-   /admin remove 15
+   /permission remove 15
    ```
 
 2. Remove specific god permissions while keeping admin access:
    ```
-   /admin remove 22 god
+   /permission remove 22 god
    ```
 
 ## Permission Hierarchy
